@@ -247,22 +247,23 @@ ul {
 }
 
 .hero__title-im {
-  padding: 0 0 0 clamp(3rem, 15vw, 9rem);
-  font-size: clamp(1rem, 5vw, 2rem);
+  padding: 0 0 0 clamp(3rem, 12vw, 9rem);
+  font-size: clamp(1rem, 3vw, 2rem);
   font-weight: 400;
 }
 
 .hero__title-name {
   font-family: "Major Mono Display", monospace;
-  font-size: clamp(4rem, 20vw, 12rem);
+  font-size: clamp(4rem, 16vw, 12rem);
   line-height: 1;
   color: rgb(var(--color-hl));
+  text-transform: uppercase;
   text-shadow: 0 0 0.125em rgb(var(--color-hl));
 }
 
 .hero__subtitle {
-  padding: 0 clamp(3rem, 15vw, 9rem) 0 0;
-  font-size: clamp(1rem, 5vw, 2rem);
+  padding: 0 clamp(3rem, 12vw, 9rem) 0 0;
+  font-size: clamp(1rem, 3vw, 2rem);
   font-weight: 400;
   text-align: right;
 }
