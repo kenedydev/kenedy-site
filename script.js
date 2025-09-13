@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("year").textContent = new Date().getFullYear();
+
   const topbar = document.querySelector(".topbar");
   const topbarToggle = topbar.querySelector(".topbar__toggle");
   const openIcon = topbarToggle.querySelector('[data-js="open-menu-icon"]');
